@@ -1,3 +1,9 @@
+const container_spinner = document.querySelector('.container__spinner')
+
+setTimeout(() => {
+    container_spinner.classList.add('disabled')
+}, 2500);
+
 import * as monaco from 'monaco-editor'
 import HTMLWorker from 'monaco-editor/esm/vs/language/html/html.worker?worker'
 import CSSWorker from 'monaco-editor/esm/vs/language/css/css.worker?worker'
