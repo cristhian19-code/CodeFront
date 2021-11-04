@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link href="./style.css" rel="stylesheet">
+    <title>Hello World!</title>
+  </head>
+  <body>
+    <div class="container__spinner" >
+      <div class="spinner"></div>
+      <span>📓Cargando mesa de trabajo...</span>
+    </div>
+    <div class="code">
+      <div class="editor">
+        <div id="html">
+        </div>
+        <div class="icon">
+          <img src="./icons/html5.png" alt="">
+        </div>
+      </div>
+      <div class="editor">
+        <div id="css">
+        </div>
+        <div class="icon">
+          <img src="./icons/css-3.png" alt="">
+        </div>
+      </div>
+      <div class="editor">
+        <div id="js">
+        </div>
+        <div class="icon">
+          <img src="./icons/js.png" alt="">
+        </div>
+      </div>
+      <div>
+        <iframe srcdoc="<h1>Preview</h1>" id="preview" ></iframe>
+      </div>
+    </div>
+    <script type="module"  src="./spinner.js"></script>
+    <script type="module" src="./main.js"></script>
+  </body>
+  </html>
